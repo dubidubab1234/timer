@@ -1,0 +1,53 @@
+.show-time {
+  text-align: center;
+  font-size: 50vmin;
+}
+
+.input {
+  text-align: center;
+}
+
+.input .minutes {
+  height: 20px;
+  width: 80px;
+}
+
+.input .seconds {
+  height: 20px;
+  width: 80px;
+}
+
+.button {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.blinking {
+  -webkit-animation: blink 0.7s ease-in-out infinite alternate;
+  -moz-animation: blink 0.7s ease-in-out infinite alternate;
+  animation: blink 0.7s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
